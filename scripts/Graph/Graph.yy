@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Graph",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Graph",
+  "parent":{
+    "name":"Graph",
+    "path":"Graph.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
