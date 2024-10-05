@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"o_object2",
+  "%Name":"o_follower",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_object","path":"objects/o_object/o_object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_object2",
+  "name":"o_follower",
   "overriddenProperties":[],
   "parent":{
     "name":"Graph",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"shape_mask",
+    "path":"sprites/shape_mask/shape_mask.yy",
   },
   "spriteMaskId":null,
   "visible":true,

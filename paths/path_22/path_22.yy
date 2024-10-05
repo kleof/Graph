@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"path_22",
+  "closed":true,
+  "kind":0,
+  "name":"path_22",
+  "parent":{
+    "name":"Graph",
+    "path":"Graph.yyp",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":50.0,},
+    {"speed":100.0,"x":50.0,"y":50.0,},
+    {"speed":100.0,"x":50.0,"y":0.0,},
+    {"speed":100.0,"x":100.0,"y":0.0,},
+    {"speed":100.0,"x":100.0,"y":100.0,},
+    {"speed":100.0,"x":0.0,"y":100.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

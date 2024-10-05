@@ -3,6 +3,7 @@
   "%Name":"o_object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_object",
@@ -29,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"shape",
+    "path":"sprites/shape/shape.yy",
+  },
+  "spriteMaskId":{
+    "name":"shape_mask",
+    "path":"sprites/shape_mask/shape_mask.yy",
+  },
   "visible":true,
 }

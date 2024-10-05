@@ -5,7 +5,7 @@ function Graph(_save_ref=false) constructor {
 	static add_node = function(_name, _data=undefined) {
 		nodes[$ _name] ??= new Node(_name, save_ref, _data);
 		
-		return nodes[$ _name];
+		return get_node(_name);
 	}
 	
 	static add_edge = function(_name_a, _name_b) {
@@ -14,8 +14,14 @@ function Graph(_save_ref=false) constructor {
 		var _node_a = add_node(_name_a);
 		var _node_b = add_node(_name_b);
 		
-		_node_a.add_connection(_name_b);
-		_node_b.add_connection(_name_a);
+		_node_a.add_connection(_node_b);
+		_node_b.add_connection(_node_a);
+		
+		return true;
+	}
+	
+	static get_node = function(_name) {
+		return nodes[$ _name];
 	}
 }
 
@@ -29,6 +35,7 @@ function Node(_name, _save_ref, _data=undefined) constructor {
 	if (_save_ref == true) ref = _name;
 	
 	static add_connection = function(_node) {
+		
 		connections[$ _node.name] ??= _node;
 	}
 	
