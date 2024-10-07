@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SCRIPT_TEMP",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SCRIPT_TEMP",
+  "parent":{
+    "name":"Graph",
+    "path":"Graph.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

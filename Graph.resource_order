@@ -6,6 +6,7 @@
     {"name":"o_object2","order":3,"path":"objects/o_object2/o_object2.yy",},
     {"name":"path_22","order":5,"path":"paths/path_22/path_22.yy",},
     {"name":"Graph","order":1,"path":"scripts/Graph/Graph.yy",},
+    {"name":"SCRIPT_TEMP","order":10,"path":"scripts/SCRIPT_TEMP/SCRIPT_TEMP.yy",},
     {"name":"shape_mask","order":8,"path":"sprites/shape_mask/shape_mask.yy",},
     {"name":"shape","order":6,"path":"sprites/shape/shape.yy",},
     {"name":"Sprite1","order":4,"path":"sprites/Sprite1/Sprite1.yy",},
