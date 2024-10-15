@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"aMacro",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"aMacro",
+  "parent":{
+    "name":"Graph",
+    "path":"Graph.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
