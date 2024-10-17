@@ -23,6 +23,7 @@
     {"id":{"name":"o_object2","path":"objects/o_object2/o_object2.yy",},},
     {"id":{"name":"ps_pixels_asset","path":"particles/ps_pixels_asset/ps_pixels_asset.yy",},},
     {"id":{"name":"path_22","path":"paths/path_22/path_22.yy",},},
+    {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"aMacro","path":"scripts/aMacro/aMacro.yy",},},
     {"id":{"name":"Graph","path":"scripts/Graph/Graph.yy",},},

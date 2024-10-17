@@ -15,7 +15,7 @@ part_type_orientation(global._ptype1, 0, 0, 0, 0, false);
 part_type_colour3(global._ptype1, $FFFF00, $FFFFFF, $FFFFFF);
 part_type_alpha3(global._ptype1, 1, 1, 0);
 part_type_blend(global._ptype1, true);
-part_type_life(global._ptype1, 80, 80);
+part_type_life(global._ptype1, 60, 100);
 
 var _pemit1 = part_emitter_create(ps_pixels);
 part_emitter_region(ps_pixels, _pemit1, -2.5, 2.5, -2.5, 2.5, ps_shape_ellipse, ps_distr_linear);

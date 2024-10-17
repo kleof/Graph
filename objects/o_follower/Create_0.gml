@@ -1,20 +1,11 @@
-ps = part_system_create_layer("Instances", false);
+//ps = part_system_create_layer("Instances", false);
+randomize();
+path_position = random(1);
+show_debug_message(path_position);
+path_start(Path2, 0, path_action_continue, true);
 
-arr = [[1,2,3],
-	   [4,5,6],
-	   [7,8,9]];
-
-//array_delete(arr, 1, 1);
-column = 1;
-
-function array2d_delete_column() {
-	array_foreach(arr, method({column}, function(element, index) {
-		array_delete(element, column, 1);
-	}));
+function is_close_to(_num, _goal, _margin) {
+	return abs(_num - _goal) < _margin;
 }
 
-for (var i = 0; i < array_length(arr); i++) {
-    show_debug_message(arr[i]);
-}
-	 
-	 
+stop_point = .5;
