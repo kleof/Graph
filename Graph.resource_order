@@ -6,7 +6,6 @@
     {"name":"o_object2","order":3,"path":"objects/o_object2/o_object2.yy",},
     {"name":"ps_pixels_asset","order":11,"path":"particles/ps_pixels_asset/ps_pixels_asset.yy",},
     {"name":"path_22","order":5,"path":"paths/path_22/path_22.yy",},
-    {"name":"Path2","order":12,"path":"paths/Path2/Path2.yy",},
     {"name":"aMacro","order":10,"path":"scripts/aMacro/aMacro.yy",},
     {"name":"Graph","order":1,"path":"scripts/Graph/Graph.yy",},
     {"name":"shape_mask","order":8,"path":"sprites/shape_mask/shape_mask.yy",},
