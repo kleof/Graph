@@ -18,4 +18,3 @@ part_type_blend(global._ptype1, true);
 part_type_life(global._ptype1, 60, 100); //Very long time? spirraling/moving in a circle in the middle
 
 
-

@@ -11,4 +11,3 @@ if (mouse_check_button(mb_left)) {
 
 prevx = mouse_x;
 prevy = mouse_y;
-
