@@ -12,5 +12,6 @@
     {"name":"shape_mask","order":8,"path":"sprites/shape_mask/shape_mask.yy",},
     {"name":"shape","order":6,"path":"sprites/shape/shape.yy",},
     {"name":"Sprite1","order":4,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"Sprite4","order":13,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

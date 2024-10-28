@@ -28,4 +28,3 @@ repeat (35) {
 	instance_create_layer(_x, _y, "Instances", o_follower);
 }
 
-
