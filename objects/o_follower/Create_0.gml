@@ -9,11 +9,4 @@ prevy = mouse_y;
 
 
 
-show_debug_message(random(1));
-show_debug_message(random(1));
-show_debug_message(random(1));
-show_debug_message(random(1));
-show_debug_message(random(1));
-show_debug_message(random(1));
-
 
