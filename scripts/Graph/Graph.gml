@@ -8,7 +8,7 @@ function Graph() constructor {
 	}
 	
 	static add_edge = function(_name_a, _name_b) {
-		if (_name_a == _name_b) return false;
+		if (variable_get_hash(_name_a) == variable_get_hash(_name_b)) return false; // hmmm, preventing same mutables from being added?
 		
 		var _node_a = add_node(_name_a);
 		var _node_b = add_node(_name_b);
