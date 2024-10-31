@@ -1,9 +1,8 @@
-function Graph(_save_ref=false) constructor {
+function Graph() constructor {
 	nodes = {};
-	save_ref = _save_ref;
 	
 	static add_node = function(_name) {
-		nodes[$ _name] ??= new Node(_name, save_ref);
+		nodes[$ _name] ??= new Node(_name);
 		
 		return get_node(_name);
 	}
@@ -25,13 +24,9 @@ function Graph(_save_ref=false) constructor {
 	}
 }
 
-function Node(_name, _save_ref) constructor {
-	name = string(_name);
+function Node(_name) constructor {
+	name = _name;
 	connections = {};
-	
-	ref = undefined;
-	
-	if (_save_ref == true) ref = _name;
 	
 	static add_connection = function(_node) {	
 		connections[$ _node.name] ??= _node;
