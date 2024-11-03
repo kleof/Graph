@@ -1,14 +1,15 @@
+/// @desc Graph
 function Graph() constructor {
 	nodes = {};
 	
 	static add_node = function(_name) {
-		nodes[$ _name] ??= new Node(_name);
+		nodes[$ _name] = new Node(_name);
 		
 		return get_node(_name);
 	}
 	
 	static add_edge = function(_name_a, _name_b, _distance=1) {
-		if (string(_name_a) == string(_name_b)) return false; // hmmm, preventing same mutables from being added?
+		if (variable_get_hash(_name_a) == variable_get_hash(_name_b)) return false; // hmmm, preventing same mutables from being added?
 		
 		var _node_a = add_node(_name_a);
 		var _node_b = add_node(_name_b);
@@ -25,12 +26,11 @@ function Graph() constructor {
 }
 
 function Node(_name) constructor {
-	name = string(_name);
-	data = _name;
+	name = _name;
 	connections = {};
 	
 	static add_connection = function(_node, _distance=1) {	
-		connections[$ _node.name] ??= _distance;
+		connections[$ _node.name] = _distance;
 	}
 	
 }
