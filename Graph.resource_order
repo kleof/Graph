@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"o_follower","order":9,"path":"objects/o_follower/o_follower.yy",},
+    {"name":"o_obj","order":14,"path":"objects/o_obj/o_obj.yy",},
     {"name":"o_object","order":2,"path":"objects/o_object/o_object.yy",},
     {"name":"o_object2","order":3,"path":"objects/o_object2/o_object2.yy",},
     {"name":"ParticleSystem2","order":12,"path":"particles/ParticleSystem2/ParticleSystem2.yy",},

@@ -3,7 +3,7 @@ function Graph() constructor {
 	nodes = {};
 	
 	static add_node = function(_name) {
-		nodes[$ _name] = new Node(_name);
+		nodes[$ _name] ??= new Node(_name);
 		
 		return get_node(_name);
 	}
@@ -23,14 +23,22 @@ function Graph() constructor {
 	static get_node = function(_name) {
 		return nodes[$ _name];
 	}
+	
+	static _show_nodes = function() {
+		return struct_get_names(nodes);
+	}
 }
 
 function Node(_name) constructor {
-	name = _name;
+	name = string(_name);
+	data = _name;
 	connections = {};
 	
 	static add_connection = function(_node, _distance=1) {	
-		connections[$ _node.name] = _distance;
+		connections[$ _node.name] ??= _distance;
 	}
 	
+	static _show_connections = function() {
+		return struct_get_names(connections);
+	}
 }

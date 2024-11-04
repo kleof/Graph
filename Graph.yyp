@@ -19,6 +19,7 @@
   "name":"Graph",
   "resources":[
     {"id":{"name":"o_follower","path":"objects/o_follower/o_follower.yy",},},
+    {"id":{"name":"o_obj","path":"objects/o_obj/o_obj.yy",},},
     {"id":{"name":"o_object","path":"objects/o_object/o_object.yy",},},
     {"id":{"name":"o_object2","path":"objects/o_object2/o_object2.yy",},},
     {"id":{"name":"ParticleSystem2","path":"particles/ParticleSystem2/ParticleSystem2.yy",},},
