@@ -24,8 +24,12 @@ function Graph() constructor {
 		return nodes[$ _name];
 	}
 	
-	static _show_nodes = function() {
+	static get_nodes_names = function() {
 		return struct_get_names(nodes);
+	}
+	
+	static get_connections_names = function(_name) {
+		return get_node(_name).get_connections_names();
 	}
 }
 
@@ -38,7 +42,7 @@ function Node(_name) constructor {
 		connections[$ _node.name] ??= _distance;
 	}
 	
-	static _show_connections = function() {
+	static get_connections_names = function() {
 		return struct_get_names(connections);
 	}
 }

@@ -4,25 +4,20 @@ prevx = mouse_x;
 prevy = mouse_y;
 
 
-a = [1];
-b = [3];
-c = [2];
+arr = [[1,1,0],
+		   [0,1,1],
+		   [0,1,1]];
+		   
+outline = array2d_to_outline(arr);
 
-g = new Graph();
+g1 = new Graph();
+g2 = new Graph();
 
+path = path_add();
 
-g.add_edge(a, b);
-g.add_edge(a, c);
+function test() constructor {
+	static b = 3;
+	a = 22;
+}
 
-show_debug_message(g.get_node(a)._show_connections());
-
-array_push(a, 2);
-
-show_debug_message(g.get_node(a));
-
-oo = {x:0};
-g.add_node(oo);
-oo.x = 25;
-
-show_debug_message(g.get_node(oo));
-
+test1 = new test();
