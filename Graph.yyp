@@ -27,6 +27,7 @@
     {"id":{"name":"path_22","path":"paths/path_22/path_22.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"aMacro","path":"scripts/aMacro/aMacro.yy",},},
+    {"id":{"name":"array2d_to_outline","path":"scripts/array2d_to_outline/array2d_to_outline.yy",},},
     {"id":{"name":"Graph","path":"scripts/Graph/Graph.yy",},},
     {"id":{"name":"shape_mask","path":"sprites/shape_mask/shape_mask.yy",},},
     {"id":{"name":"shape","path":"sprites/shape/shape.yy",},},

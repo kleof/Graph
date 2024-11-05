@@ -9,6 +9,7 @@
     {"name":"ps_asset","order":11,"path":"particles/ps_asset/ps_asset.yy",},
     {"name":"path_22","order":5,"path":"paths/path_22/path_22.yy",},
     {"name":"aMacro","order":10,"path":"scripts/aMacro/aMacro.yy",},
+    {"name":"array2d_to_outline","order":15,"path":"scripts/array2d_to_outline/array2d_to_outline.yy",},
     {"name":"Graph","order":1,"path":"scripts/Graph/Graph.yy",},
     {"name":"shape_mask","order":8,"path":"sprites/shape_mask/shape_mask.yy",},
     {"name":"shape","order":6,"path":"sprites/shape/shape.yy",},

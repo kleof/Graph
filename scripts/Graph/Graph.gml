@@ -42,3 +42,4 @@ function Node(_name) constructor {
 		return struct_get_names(connections);
 	}
 }
+
