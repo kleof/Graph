@@ -45,20 +45,21 @@ function array2d_to_outline(_array2d) {
 	var outline_path = path_add();
 	path_add_point(outline_path, current_node.data.x, current_node.data.y, 100);
 	
-	while (path_get_number(outline_path) <= graph_length) {
+	do {
+		var point = current_node.data;
+		path_add_point(outline_path, point.x, point.y, 100);
+		
 		var connections_names = current_node.get_connections_names();
 		
 		for (var i = 0; i < array_length(connections_names); i++) {
 		    var connection = outline_graph.get_node(connections_names[i]);
 			if (connection != previous_node) {
-				var point = connection.data;
-				path_add_point(outline_path, point.x, point.y, 100);
 				previous_node = current_node;
 				current_node = connection;
 				break;
 			}
 		}
-	}
+	} until (path_get_number(outline_path) == graph_length);
 	
 	return outline_path;
 }
