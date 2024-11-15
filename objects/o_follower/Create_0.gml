@@ -5,19 +5,12 @@ prevy = mouse_y;
 
 
 arr = [[1,1,0],
-		   [0,1,1],
-		   [0,1,1]];
-		   
+	   [0,1,1],
+	   [1,1,1],
+	   [0,1,0],
+	   [0,1,1]];
+ 
 outline = array2d_to_outline(arr);
 
-g1 = new Graph();
-g2 = new Graph();
-
-path = path_add();
-
-function test() constructor {
-	static b = 3;
-	a = 22;
-}
-
-test1 = new test();
+path_set_closed(outline, false);
+path_set_kind(outline, 1);

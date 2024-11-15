@@ -8,9 +8,7 @@ path_add_point(path1, 100, 0, 100);
 path_add_point(path1, 100, 100, 100);
 path_add_point(path1, 0, 100, 100);
 
-image_alpha = .03;
+//image_alpha = .03;
 
 
 // TODO increase number of spawned particles and length of their random movement
-
-

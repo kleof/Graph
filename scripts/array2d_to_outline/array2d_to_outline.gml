@@ -1,5 +1,6 @@
 #macro GRID 30
 
+// **** REMEMBER TO DELETE PATH AFTER USE ****
 function array2d_to_outline(_array2d) {
 	var arr_height = array_length(_array2d);
 	var arr_width = array_length(_array2d[0]);
@@ -43,7 +44,6 @@ function array2d_to_outline(_array2d) {
 	var previous_node = current_node;
 	
 	var outline_path = path_add();
-	path_add_point(outline_path, current_node.data.x, current_node.data.y, 100);
 	
 	do {
 		var point = current_node.data;
